@@ -132,12 +132,14 @@ footer {
   flex-wrap: wrap; /* important for responsiveness */
 }
 
-.profile-pic img {
-  width: 250px;
+.profile-pic {
+  max-width: 200px;       /* Limit image size */
   height: auto;
-  border-radius: 10px;
-  object-fit: cover;
+  border-radius: 4px;     /* Optional: slight rounding */
+  display: block;
+  margin: 0 auto 2rem;    /* Center and space below */
 }
+
 
 .about-text {
   flex: 1;
