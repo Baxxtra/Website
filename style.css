@@ -81,7 +81,7 @@ footer {
   padding-bottom: 2rem;
 }
 
-/* Social Icons */
+
 /* Social Icons */
 .social-icons {
   margin-top: 2rem; /* This adds space above the icons */
@@ -116,11 +116,14 @@ footer {
   color: #222;
 }
 
+
 /* ——————————————— */
 /* Research Section Enhancements */
 /* ——————————————— */
 
 .research-section {
+  max-width: 800px;
+  margin: 4rem auto;
   padding: 60px 20px;
   background-color: #fff;
   color: #1a1a1a;
@@ -133,21 +136,25 @@ footer {
   font-weight: 600;
   margin-bottom: 2rem;
   color: #1a1a1a;
+  text-align: center;
 }
 
 .subtext {
   font-size: 1rem;
   color: #666;
   margin-bottom: 2.5rem;
+  text-align: center;
 }
 
 .publication-block {
   text-align: left;
   max-width: 750px;
-  margin: 0 auto 1.8rem auto;
+  margin: 0 auto 2rem auto;
   font-size: 1.05rem;
   line-height: 1.7;
   color: #333;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
 }
 
 .publication-block strong {
@@ -160,3 +167,11 @@ footer {
   color: #555;
 }
 
+.publication-block a {
+  color: #777;
+  text-decoration: underline;
+}
+
+.publication-block a:hover {
+  color: #333;
+}
