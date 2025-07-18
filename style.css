@@ -136,12 +136,12 @@ footer {
 /* Research Section Enhancements */
 /* ——————————————— */
 
-
 .research-section {
-  background-color: transparent; /* Or match body background */
-  box-shadow: none;
-  padding: 40px 20px;
-  max-width: 100%; /* Let it stretch full width if desired */
+  background-color: transparent;     /* Removes the white box */
+  box-shadow: none;                  /* Removes any shadow */
+  padding: 20px 20px 40px;           /* Top padding reduced */
+  max-width: 100%;                   /* Allows full-width if needed */
+  margin: 0 auto;
 }
 
 
