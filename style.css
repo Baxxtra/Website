@@ -120,19 +120,21 @@ footer {
 /* ——————————————— */
 /* Foto ABOUT  */
 /* ——————————————— */
-.about-flex {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 3rem;
-  max-width: 1100px;
-  margin: 4rem auto;
-  padding: 0 2rem;
-  flex-wrap: wrap;
+.about-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  text-align: left;
+  /* Remove these if they exist: */
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
 }
 
 .about-image {
-  flex: 0 0 300px; /* Fixed width for the image block */
+  flex: 0 0 350px;  /* previously 300px, now larger */
 }
 
 .profile-pic {
@@ -142,13 +144,6 @@ footer {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about-text {
-  flex: 1;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #333;
-  text-align: left;
-}
 
 
 
