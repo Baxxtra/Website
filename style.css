@@ -140,7 +140,7 @@ footer {
 .research-section {
   background-color: transparent; /* Or match body background */
   box-shadow: none;
-  padding: 60px 20px;
+  padding: 40px 20px;
   max-width: 100%; /* Let it stretch full width if desired */
 }
 
