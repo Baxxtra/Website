@@ -121,13 +121,6 @@ footer {
 /* Foto ABOUT  */
 /* ——————————————— */
 
-.profile-pic {
-  max-width: 200px;       /* Limit image size */
-  height: auto;
-  border-radius: 4px;     /* Optional: slight rounding */
-  display: block;
-  margin: 0 auto 2rem;    /* Center and space below */
-}
 
 .about-flex {
   display: flex;
@@ -136,10 +129,10 @@ footer {
   max-width: 1000px;
   margin: 4rem auto;
   padding: 0 2rem;
-  flex-wrap: wrap; /* ensures responsiveness */
+  flex-wrap: wrap; /* important for responsiveness */
 }
 
-.about-image img {
+.profile-pic img {
   width: 250px;
   height: auto;
   border-radius: 10px;
@@ -151,18 +144,6 @@ footer {
   font-size: 1.05rem;
   line-height: 1.7;
   color: #333;
-}
-
-@media (max-width: 768px) {
-  .about-flex {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-text {
-    text-align: left;
-  }
 }
 
 
