@@ -4,152 +4,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Karoline Bax</title>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Libre Baskerville', serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-
-    header {
-      position: sticky;
-      top: 0;
-      background: white;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 1px 5px rgba(0,0,0,0.05);
-      z-index: 999;
-    }
-
-    .logo {
-      font-size: 1.3rem;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
-
-    nav a {
-      margin-left: 1.5rem;
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      color: #777;
-    }
-
-    section {
-      max-width: 800px;
-      margin: 6rem auto;
-      padding: 0 1.5rem;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      line-height: 1.6;
-      font-size: 1.05rem;
-    }
-
-    .social-icons {
-      margin-top: 1.5rem;
-      font-size: 1.5rem;
-    }
-
-    .social-icons a {
-      margin: 0 0.6rem;
-      text-decoration: none;
-      color: #333;
-    }
-
-    .social-icons a:hover {
-      color: #888;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.85rem;
-      color: #777;
-    }
-
-    @media (max-width: 600px) {
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      nav a {
-        margin: 0.5rem 1rem 0 0;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
 </head>
-
 <body>
 
+  <!-- Header -->
   <header>
-    <div class="logo">KAROLINE BAX</div>
+    <h1>Karoline Bax</h1>
     <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#contact">Contact</a>
-      <a href="KarolineBax_CV.pdf" target="_blank">CV</a>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="KarolineBax_CV.pdf" target="_blank">CV</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="about">
+  <!-- Main Section -->
+  <section>
     <h2>About</h2>
     <p>
       I am a Postdoctoral Researcher and Lecturer at the Technical University of Munich (TUM), with a research focus on sustainable and climate finance.
-      My work explores how financial markets assess corporate climate and biodiversity risks. I use text analysis, machine learning, and financial econometrics to study risk pricing.
+      My work explores how financial markets assess corporate climate and biodiversity risks. I use text analysis, machine learning, and financial econometrics
+      to study risk pricing.
+    </p>
+    <p>
       In 2024, I was awarded the ECB Lamfalussy Fellowship for my research on biodiversity risk in syndicated lending.
     </p>
-  </section>
 
-  <section id="research">
-    <h2>Research</h2>
-    <p>
-      My research lies at the intersection of climate risk, corporate finance, and data science. I co-founded the Aggregate Confusion Project, and currently work on
-      firm-level climate exposure, ESG rating divergence, and the role of biodiversity in financial markets.
-      I collaborate with scholars from MIT Sloan and the ECB, combining rigorous empirical methods with modern NLP.
-    </p>
-  </section>
+    <!-- Optional CV link button -->
+    <a href="KarolineBax_CV.pdf" target="_blank" class="cv-link">View CV (PDF)</a>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><strong>Email:</strong> <a href="mailto:karoline.bax@tum.de">karoline.bax@tum.de</a></p>
-
-    <p><strong>Affiliation:</strong><br>
-      Technical University of Munich (TUM)<br>
-      TUM School of Management, Campus Heilbronn<br>
-      Bildungscampus 9, 74076 Heilbronn, Germany
-    </p>
-
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/karoline-bax-ph-d-636359121/" target="_blank" title="LinkedIn">🔗</a>
-      <a href="https://scholar.google.com/citations?user=puP8BcQAAAAJ" target="_blank" title="Google Scholar">📚</a>
-      <a href="https://orcid.org/0000-0001-6424-8481" target="_blank" title="ORCID">🧬</a>
+    <!-- Social Icons -->
+    <div class="social-icons" style="margin-top: 2rem;">
+      <a href="https://www.linkedin.com/in/karoline-bax-ph-d-636359121/" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=puP8BcQAAAAJ" target="_blank" aria-label="Google Scholar">Google Scholar</a>
+      <a href="https://orcid.org/0000-0001-8368-0969" target="_blank" aria-label="ORCID">ORCID</a>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     &copy; 2025 Karoline Bax. All rights reserved.
   </footer>
+
+</body>
+</html>
+
 
 </body>
 </html>
