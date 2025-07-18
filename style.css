@@ -122,14 +122,12 @@ footer {
 /* ——————————————— */
 
 .profile-pic {
-  width: 200px;         /* Adjust size as needed */
+  max-width: 150px;  /* Adjust width to your liking */
   height: auto;
-  border-radius: 5px;   /* Optional: slight rounding */
-  margin-bottom: 2rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 8px; /* Optional: for rounded corners */
+  margin-bottom: 1.5rem;
 }
+
 
 
 /* ——————————————— */
