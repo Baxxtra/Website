@@ -120,28 +120,25 @@ footer {
 /* ——————————————— */
 /* Foto ABOUT  */
 /* ——————————————— */
-.about-text {
-  flex: 1;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #333;
-  text-align: left;
-  /* Remove these if they exist: */
-  background-color: transparent;
-  box-shadow: none;
-  border-radius: 0;
-  padding: 0;
+.about-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem; /* space between photo and text */
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  flex-wrap: wrap; /* allow stacking on small screens */
 }
 
 .about-image {
-  flex: 0 0 350px;  /* previously 300px, now larger */
+  flex: 0 0 350px; /* fixed image block width */
 }
 
 .profile-pic {
   width: 100%;
   height: auto;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* optional: smooth corners */
+  display: block;
 }
 
 
