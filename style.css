@@ -123,29 +123,32 @@ footer {
 .about-flex {
   display: flex;
   align-items: flex-start;
-  gap: 4rem; /* More spacing between image and text */
+  gap: 2rem;
   max-width: 1000px;
   margin: 4rem auto;
   padding: 0 2rem;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
 }
 
 .profile-pic {
-  max-width: 240px;  /* Slightly bigger image */
-  flex-shrink: 0;     /* Prevent it from shrinking on small screens */
+  max-width: 250px;
+  height: auto;
+  border-radius: 6px;
+  flex-shrink: 0; /* Prevent image from shrinking */
 }
 
 .about-text {
   flex: 1;
+  background-color: #f8f8f8;
+  padding: 1.5rem 2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   font-size: 1.05rem;
   line-height: 1.7;
   color: #333;
-  padding: 1.5rem 2rem;
-  background-color: #f7f7f7;  /* Soft gray background */
-  border-left: 3px solid #ccc; /* Subtle accent border */
-  border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Optional subtle shadow */
 }
+
+
 
 
 @media (max-width: 768px) {
