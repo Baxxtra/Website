@@ -118,6 +118,21 @@ footer {
 
 
 /* ——————————————— */
+/* Foto ABOUT  */
+/* ——————————————— */
+
+.profile-pic {
+  width: 200px;         /* Adjust size as needed */
+  height: auto;
+  border-radius: 5px;   /* Optional: slight rounding */
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ——————————————— */
 /* Research Section Enhancements */
 /* ——————————————— */
 
