@@ -120,25 +120,20 @@ footer {
 /* ——————————————— */
 /* Foto ABOUT  */
 /* ——————————————— */
-
-
 .about-flex {
   display: flex;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 4rem; /* More spacing between image and text */
   max-width: 1000px;
   margin: 4rem auto;
   padding: 0 2rem;
-  flex-wrap: wrap; /* important for responsiveness */
+  flex-wrap: wrap;
 }
 
-.profile-pic img {
-  width: 250px;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
+.profile-pic {
+  max-width: 240px;  /* Slightly bigger image */
+  flex-shrink: 0;     /* Prevent it from shrinking on small screens */
 }
-
 
 .about-text {
   flex: 1;
@@ -146,6 +141,7 @@ footer {
   line-height: 1.7;
   color: #333;
 }
+
 
 
 
