@@ -130,6 +130,15 @@ footer {
   flex-wrap: wrap; /* allow stacking on small screens */
 }
 
+.about-text {
+  all: unset;
+  flex: 1;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+
 .about-image {
   flex: 0 0 350px; /* fixed image block width */
 }
