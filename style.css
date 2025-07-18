@@ -1,0 +1,110 @@
+/* Google Fonts - similar to Frutiger Light CN */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 70px; /* offset for sticky nav */
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #111;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #111;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li a {
+  font-weight: 400;
+  color: #555;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+section {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+/* Social Icons */
+.social-icons a {
+  margin: 0 10px;
+  color: #888;
+  font-size: 1.4rem;
+}
+
+.social-icons a:hover {
+  color: #555;
+}
+
+/* PDF link button style */
+.cv-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #999;
+  color: #555;
+  background: none;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.cv-link:hover {
+  background: #f0f0f0;
+  color: #222;
+}
