@@ -82,11 +82,18 @@ footer {
 }
 
 /* Social Icons */
+/* Social Icons */
+.social-icons {
+  margin-top: 2rem; /* This adds space above the icons */
+  text-align: center;
+}
+
 .social-icons a {
   margin: 0 10px;
   color: #888;
   font-size: 1.4rem;
 }
+
 
 .social-icons a:hover {
   color: #555;
